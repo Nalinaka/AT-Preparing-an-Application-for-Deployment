@@ -23,4 +23,7 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+node/test:
+app-dir: ~/project/backend
+version: '15.1'
+
